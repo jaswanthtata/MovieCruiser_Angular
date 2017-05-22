@@ -1,0 +1,18 @@
+.toolbar
+{
+	background:#7b0bbb;
+}
+.toolbar a
+{
+	color: white;
+	padding-left: 20px;
+}
+.search
+{
+	padding-left: 30px;
+}
+
+.toolbar a hover
+{
+	background-color: yellow;
+}

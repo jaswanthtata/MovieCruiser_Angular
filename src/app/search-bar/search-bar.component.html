@@ -1,0 +1,17 @@
+<!--<div class="col-lg-3">
+		<div class="input-group">
+			<input type="text" class="form-control" name="search" placeholder="movie name" #movie>
+			<div class="input-group-btn">
+				<button type="button" class="btn btn-default" (click)="onSubmit(movie.value)">Go</button>
+			</div>
+		</div>
+		<input type="text" name="search" placeholder="movie name" (keyup.enter)="onSubmit(movie.value)" (blur)="onSubmit(movie.value)" #movie>
+</div>-->
+
+<form>
+	<md-input-container>
+		<input mdInput placeholder="movie name" class="search" (keyup.enter)="onSubmit(movie.value)" #movie>
+	</md-input-container>
+</form>
+
+

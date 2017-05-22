@@ -1,0 +1,14 @@
+<md-grid-list cols="4" rowHeight="1:2">
+<div *ngFor="let X of a">
+    <md-grid-tile>
+        <md-card class="card">
+            <md-card-title>{{X.Title}}</md-card-title>
+            <md-card-title>{{X.Year}}</md-card-title>
+            <img md-card-image src="{{X.Poster}}">
+            <p>This is the list of movie</p>
+            <button md-button>Like</button>
+            <button md-button>Share</button>
+        </md-card>
+    </md-grid-tile>
+</div>
+</md-grid-list>
